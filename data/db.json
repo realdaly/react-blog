@@ -17,6 +17,12 @@
       "body": "The tutorial says to import useHistory hook from react-router-dom but it turns out that his hook is been replaced with another one called useNavigate\nAccording to the tutorial, to use the useHistory hook to redirect to another page we should put it like this: history.push('/')\nof course the history is a variable that's been assigned to the useHistory hook.\nSince the useHistory hook is not available anymore, to use the useNavigate hook it pretty simple and straightforward, just type the variable and the route between the parentheses:\nnavigate('/')\nand again the navigate is just a variable that is been assigned to the useNavigate hook in order to be able to use it inside the component.",
       "author": "Mohamed",
       "id": 8
+    },
+    {
+      "title": "Checking out the slice and reverse functions",
+      "body": "Here I'm just tryna slice the blogs array and reverse it to make the last added blog appear at the first (just reverse the order of the blogs in the BlogList component).",
+      "author": "Mohamed",
+      "id": 9
     }
   ]
 }

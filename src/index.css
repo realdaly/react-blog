@@ -108,3 +108,7 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.not-found p {
+  margin-bottom: 1rem;
+}

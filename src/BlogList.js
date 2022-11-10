@@ -7,7 +7,7 @@ const BlogList = (props) => {
     return(
         <div className="blog-list">
             <h2>{title}</h2>
-            {blogs.map(blog => (
+            {blogs.slice(0).reverse().map(blog => (
                 <div className="blog-preview" key={blog.id}>
                     <Link to={`blogs/${blog.id}`}>
                         <h2>{blog.title}</h2>

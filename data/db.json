@@ -1,22 +1,22 @@
 {
-    "blogs": [
-        {
-            "title": "The first blog",
-            "body": "This is just a test blog to see if the json server work well",
-            "author": "Mohamed",
-            "id": 1
-        },
-        {
-            "title": "Definition of Poetry",
-            "body": "Poetry is the spantanious overflow of the powerful feelings and emotions",
-            "author": "Alex",
-            "id": 2
-        }, 
-        {
-            "title": "A Psalm of Life",
-            "body": "This is a poem by a poet that I forgot his name, f him.",
-            "author": "Mohamed",
-            "id": 3
-        }
-    ]
+  "blogs": [
+    {
+      "title": "The first blog",
+      "body": "This is just a test blog to see if the json server work well",
+      "author": "Mohamed",
+      "id": 1
+    },
+    {
+      "title": "Definition of Poetry",
+      "body": "Poetry is the spantanious overflow of the powerful feelings and emotions",
+      "author": "Alex",
+      "id": 2
+    },
+    {
+      "title": "New blog after navigate",
+      "body": "The tutorial says to import useHistory hook from react-router-dom but it turns out that his hook is been replaced with another one called useNavigate\nAccording to the tutorial, to use the useHistory hook to redirect to another page we should put it like this: history.push('/')\nof course the history is a variable that's been assigned to the useHistory hook.\nSince the useHistory hook is not available anymore, to use the useNavigate hook it pretty simple and straightforward, just type the variable and the route between the parentheses:\nnavigate('/')\nand again the navigate is just a variable that is been assigned to the useNavigate hook in order to be able to use it inside the component.",
+      "author": "Mohamed",
+      "id": 8
+    }
+  ]
 }

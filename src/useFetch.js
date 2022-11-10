@@ -5,6 +5,8 @@ const useFetch = (url) => {
     const [message, setMessage] = useState("Loading...")
 
     useEffect(() => {
+        const abortController = new AbortController()
+
         setTimeout(() => {
             fetch(url)
             .then(response => {
@@ -20,7 +22,9 @@ const useFetch = (url) => {
             .catch(error => {
                 setMessage(error.message)
             })
-        }, 1000)
+        }, 500)
+
+        return () => abortController.abort()
     }, [url])
 
     return { data, message }
